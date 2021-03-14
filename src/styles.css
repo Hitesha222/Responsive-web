@@ -1,12 +1,8 @@
-body {
-  display: block;
-  margin: 30px auto;
-  text-align: center;
-  background-color: bisque;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-img {
-  margin: 20px auto;
-}
-footer a {
-  margin: 0 15px;
+.navbar {
+  position: sticky;
 }
