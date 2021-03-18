@@ -5,35 +5,12 @@
     src: url(/Fonts/SofiaPro-Semi-Bold-Az.otf);
   }
 }
-
-body {
+.container-fluid {
   background: linear-gradient(45deg, rgb(102, 68, 197), rgb(101, 238, 220))
     no-repeat;
-  color: var(--primary-color);
-  font-family: sofiaPro;
-  position: relative;
-  height: 500px;
-  box-sizing: border-box;
+  margin-top: 60px;
 }
+
 .logo {
   margin-left: 10px;
-}
-.container-fluid {
-  max-height: 500px;
-  position: absolute;
-  top: 20%;
-  left: 20%;
-}
-button {
-  width: 10%;
-}
-button a {
-  color: var(--primary-color);
-  font-size: 23px;
-  transition: ease-in-out;
-  font-family: sofiaPro;
-  font-weight: 600;
-}
-button a:hover {
-  color: var(--primary-color);
 }
