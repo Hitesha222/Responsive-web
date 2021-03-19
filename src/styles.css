@@ -1,16 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
 :root {
   --primary-color: white;
-  @font-face {
-    font-family: sofiaPro;
-    src: url(/Fonts/SofiaPro-Semi-Bold-Az.otf);
-  }
 }
 .container-fluid {
+  padding: 180px;
   background: linear-gradient(45deg, rgb(102, 68, 197), rgb(101, 238, 220))
     no-repeat;
-  margin-top: 60px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  color: var(--primary-color);
 }
-
+.btnAbout {
+  text-decoration: none;
+  padding: 13px 30px;
+  border: 2px solid rgb(102, 209, 216);
+  border-radius: 40px;
+  color: var(--primary-color);
+  transition: ease-in-out 1s;
+}
 .logo {
-  margin-left: 10px;
+  margin-left: 200px;
+}
+.about-section img {
+  width: 400px;
+  margin: auto 40px;
 }
