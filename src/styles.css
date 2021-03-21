@@ -5,13 +5,18 @@
   --secondary-color: #a3d2ca;
   --font-family: "Poppins", sans-serif;
 }
+
 .logo {
-  margin-left: 50px;
+  margin-left: 80px;
+}
+i {
+  color: var(--primary-color);
+  margin-right: 50px;
 }
 .hero {
   padding: 180px 0;
   background-color: var(--secondary-color);
-  background-size: cover;
+  background-size: 100% 100%;
   font-family: var(--font-family);
   color: var(--primary-color);
 }
@@ -57,4 +62,20 @@
   font-weight: 600;
   text-align: center;
   margin: 35px auto;
+}
+footer .email_link {
+  text-decoration: none;
+  font-size: 24px;
+  margin: 40px auto;
+  color: var(--primary-color);
+}
+footer .email_link:hover {
+  color: var(--secondary-color);
+}
+.fab {
+  font-size: 35px;
+  margin-right: 40px;
+}
+.fab:hover {
+  color: var(--secondary-color);
 }
