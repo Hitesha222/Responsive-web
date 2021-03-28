@@ -96,14 +96,6 @@ footer .email_link:hover {
 .projects {
   margin-top: 130px;
 }
-@media (max-width: 600px) {
-  .logo {
-    margin-left: 30px;
-  }
-  i {
-    margin: 0;
-  }
-}
 @media (max-width: 813px) {
   .logo {
     margin-left: 30px;
