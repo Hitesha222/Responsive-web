@@ -76,6 +76,6 @@ footer .email_link:hover {
   font-size: 35px;
   margin-right: 40px;
 }
-.fab:hover {
-  color: var(--secondary-color);
+.contact {
+  margin: 150px auto;
 }
