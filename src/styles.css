@@ -77,6 +77,7 @@ i {
 
 footer {
   height: 300px;
+  clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
 }
 footer .email_link {
   text-decoration: none;
