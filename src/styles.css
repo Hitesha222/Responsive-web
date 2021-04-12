@@ -17,6 +17,7 @@ i {
   color: var(--primary-color);
 }
 .hero {
+  clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
   padding: 180px 0;
   background-color: var(--secondary-color);
   background-size: 100% 100%;
