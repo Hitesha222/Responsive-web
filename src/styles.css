@@ -74,15 +74,13 @@ i {
   text-align: center;
   margin: 35px auto;
 }
-
-footer {
-  height: 300px;
-  clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+.footer-contect {
+  color: var(--primary-color);
 }
 footer .email_link {
   text-decoration: none;
-  font-size: 24px;
-  margin: 40px auto;
+  font-size: 22px;
+  margin: 20px auto;
   color: var(--primary-color);
 }
 footer .email_link:hover {
