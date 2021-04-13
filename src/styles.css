@@ -13,9 +13,9 @@ em {
   color: var(--primary-color);
   margin-right: 50px;
 }
-i {
+/* i {
   color: var(--primary-color);
-}
+} */
 .hero {
   clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
   padding: 180px 0;
@@ -88,13 +88,19 @@ footer .email_link:hover {
 }
 .fab {
   font-size: 35px;
-  margin-right: 40px;
+  margin-right: 30px;
+  color: azure;
 }
 .contact-section {
   margin: 150px auto;
 }
 .projects {
-  margin-top: 130px;
+  margin-top: 80px;
+}
+.projects img {
+  height: 300px;
+  width: 500px;
+  background-color: #d9e4e2;
 }
 @media (max-width: 813px) {
   .logo {
