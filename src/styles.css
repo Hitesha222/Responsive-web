@@ -13,9 +13,7 @@ em {
   color: var(--primary-color);
   margin-right: 50px;
 }
-/* i {
-  color: var(--primary-color);
-} */
+
 .hero {
   clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
   padding: 180px 0;
@@ -100,7 +98,7 @@ footer .email_link:hover {
 .projects img {
   height: 300px;
   width: 500px;
-  background-color: #d9e4e2;
+  background-color: #c4dad6;
 }
 @media (max-width: 813px) {
   .logo {
